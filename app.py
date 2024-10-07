@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests
 
 # Set up your OpenAI API key
-openai.api_key = 'sk-khbe--N9T6s0GgIipW3uUottFwnrFVLICV2oBZwV2gT3BlbkFJZ5snrdoFvw5qoCob4SHsOrbZFdIUQ-ey23ohhRDAsA'
+openai.api_key = 'sk-H3xKzi3sjJhUyUaEmZC1MBG5YQbs8PtsgV9YXxJBrKT3BlbkFJPntKXKviKquBE51TPzpWs1sHT2KTHDjhdetQE61z0A'
 
 # Function to generate a response from OpenAI with error handling
 def generate_response(messages):
